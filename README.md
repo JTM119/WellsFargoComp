@@ -21,7 +21,7 @@ environment_packages.txt : A list of the packages that I used and what versions 
 
 Rules : This described the rules for the competition
 
-Model_Visualization_And_Rationalization.pdf : This is a control flow diagram that shows how the data was manipulated and pushed through the model. It also gives a brief summary of all that was done
+ModelVisualizationAndRationalization.pdf : This is a control flow diagram that shows how the data was manipulated and pushed through the model. It also gives a brief summary of all that was done
 
 To run the WellsFargoComp.py please use Python WellsFargoComp.py
 
