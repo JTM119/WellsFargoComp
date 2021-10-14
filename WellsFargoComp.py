@@ -113,7 +113,7 @@ def refine_data(file_name, id_string):
         if x != "TRAN_TS":
             df_test_diffs[x] = df_date_times['TRAN_TS'] - df_date_times[x]
             df_test_diffs[x] = df_test_diffs[x].astype('timedelta64[D]')
-            df_test_diffs[x] = df_test_diffs[x].fillna(value = 100000)
+            df_test_diffs[x] = df_test_diffs[x].fillna(value = -1)
 
     #df_test_diffs['GOAL'] = df['GOAL']
 
